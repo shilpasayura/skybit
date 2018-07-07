@@ -1,0 +1,19 @@
+{
+	"database": {
+		"host": "localhost",
+		"database": "wetbit",
+		"user": "root",
+		"password": ""
+	},
+	"databaseConnection": {
+		"retryMinTimeout": 2000,
+		"retryMaxTimeout": 60000
+	},
+	"session": {
+		"cookieName": "session",
+		"secret": "8aTh_5aL7",
+		"duration": 1800000,
+		"activeDuration": 300000
+	},
+	"port": 8080
+}

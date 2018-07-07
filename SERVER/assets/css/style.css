@@ -1,0 +1,91 @@
+
+body{
+	font: 12pt arial, helvetica, clean, sans-serif;
+	margin:0px;
+	padding:10px;
+}
+
+h1{
+	margin:-10px;
+	padding:5px 0px 1px 4px;
+	color:#FFFFFF;
+	background-color:rgb(59, 120, 231);
+	font-weight:400;
+	box-shadow:0px 0px 8px -1px #000000;
+}
+
+div.frame{
+	position:absolute;
+	top:42px;
+	left:0px;
+	width:100%;
+	padding:10px;
+	opacity:0;
+	box-sizing:border-box;
+	transition:opacity 0.5s;
+}
+div.frame.active{
+	opacity:1;
+}
+
+ul.twocol{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+ul.twocol li{
+	float:left;
+	width:50%;
+}
+
+ul.twocol li h3{
+	text-align:center;
+}
+
+#chart, .chart{
+	width:100%;
+	height:200px;
+}
+
+.chartTooltip {
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+    position: absolute;
+    padding: 4px;
+    white-space: nowrap;
+    cursor: default;
+    z-index: 100;
+    box-shadow: 1px 1px 10px -4px #000000;
+    border-radius: 4px;
+    transition: opacity 0.25s, top 0.1s, left 0.1s;
+}
+
+#jobs{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+.colicon{
+	display:inline-block;
+	height:16px;
+	width:16px;
+	margin:0px 10px -3px 2px;
+}
+
+#jobs li{
+	padding:3px 2px;
+	margin:0px;
+	height:17px;
+	overflow:hidden;
+	opacity:1;
+	transition:all 0.5s;
+}
+
+#jobs li span{
+	display:inline-block;
+	float:right;
+	margin-right:10px;
+	color:#808080;
+}

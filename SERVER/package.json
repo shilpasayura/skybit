@@ -1,0 +1,25 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "serialport": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vishva-villvay@bitbucket.org/vishva-villvay/prodoscore-correlations.git"
+  },
+  "keywords": [
+    "",
+  ],
+  "author": "Vishva8Kumara",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/vishva-villvay/prodoscore-correlations#readme"
+}
